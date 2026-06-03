@@ -1,0 +1,146 @@
+main {
+  padding: 20px;
+}
+
+h1 {
+  color: #a41034;
+  text-align: center;
+}
+
+h1 > a {
+  color: #a41034;
+  text-decoration: none;
+}
+
+h1 > a:hover {
+  text-decoration: underline;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+h2 {
+  background: #a41034;
+  color: white;
+  text-align: center;
+  font-style: italic;
+}
+
+form {
+  width: 400px;
+  height: 500px;
+  padding: 30px;
+  margin: 20px;
+  border: 5px solid #a41034;
+}
+
+div img {
+  width: 100px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+div {
+  padding-bottom: 20px;
+}
+
+table,
+td,
+th {
+  border: 3px solid #a41034;
+  border-collapse: collapse;
+  padding: 5px;
+  margin: 20px;
+  text-align: center;
+}
+
+/* Using FLEXBOX */
+
+#container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#container > div {
+  font-size: 20px;
+  text-align: center;
+  margin: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+  width: 200px;
+  border-radius: 7px;
+}
+
+#container #freeCodeCamp {
+  background-color: #000000;
+  color: #ffffff;
+}
+#container #W3Schools {
+  background-color: #4caf50;
+  color: white;
+}
+#container #TOP {
+  background-color: white;
+  color: #90775f;
+  border: 3px solid #cd9c62;
+  border-collapse: collapse;
+}
+#container #CS50 {
+  background-color: yellowgreen;
+  color: green;
+}
+#container #GitHub {
+  background-color: #000000;
+  color: #ffffff;
+}
+#container #Reddit {
+  background-color: #ff4500;
+  color: #ffffff;
+}
+#container #Instagram {
+  background-color: #ee2a7b;
+  color: #ffffff;
+}
+#container #YouTube {
+  background-color: #ff0033;
+  color: #ffffff;
+}
+
+/* Using GRID */
+
+#grid {
+  background-color: #a41034;
+  padding: 10px;
+  margin: 20px;
+  display: grid;
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+  grid-template-columns: 100px 100px auto;
+}
+
+.grid-item {
+  background-color: white;
+  padding: 20px;
+  font-size: 20px;
+  text-align: center;
+}
+
+/* Using BOOTSTRAP */
+
+/* Using MEDIA query */
+
+@media (max-width: 768px) {
+  main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+}
